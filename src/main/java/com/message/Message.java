@@ -11,7 +11,6 @@ public class Message {
 	
 	public List<String> getMessage(List<Network> networks){
 		List<String> messages = new ArrayList<String>();
-		System.out.println("Cantidad de redes a consultar: "+ networks.size());
 		for(Network network : networks) {
 			messages.addAll(network.get());
 		}

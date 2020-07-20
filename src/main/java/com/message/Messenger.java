@@ -16,6 +16,8 @@ public class Messenger {
 	public Messenger() {
 		streamFlow = new StreamFlow();
 		message = new Message();
+		messages = new ArrayList<String>().stream();
+
 	}
 	
 	public List<String> getMessage(List<Object> ObjNetworks){

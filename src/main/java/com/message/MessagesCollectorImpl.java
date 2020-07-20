@@ -1,11 +1,11 @@
 package com.message;
 import java.util.List;
 
-public class MessageCollectorImpl implements MessageCollector{
+public class MessagesCollectorImpl implements MessagesCollector{
 	
 	Messenger messenger;
 	
-	public MessageCollectorImpl() {
+	public MessagesCollectorImpl() {
 		messenger = new Messenger();
 	}
 	
