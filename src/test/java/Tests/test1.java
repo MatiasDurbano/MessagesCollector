@@ -8,9 +8,9 @@ import java.util.stream.Stream;
 
 import org.junit.jupiter.api.Test;
 
-import com.StreamFlow.StreamFlow;
 import com.message.MessagesCollector;
 import com.message.MessagesCollectorImpl;
+import com.streamflow.StreamFlow;
 
 class test1 {
 

@@ -1,4 +1,4 @@
-package com.Finder;
+package com.finder;
 
 public interface Finder {
 	

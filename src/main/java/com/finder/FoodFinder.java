@@ -1,4 +1,4 @@
-package com.Finder;
+package com.finder;
 
 import java.util.ArrayList;
 import java.util.List;
