@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
 
-import com.Interfaces.Network;
+import com.interfaces.Network;
 import com.streamflow.StreamFlow;
 
 

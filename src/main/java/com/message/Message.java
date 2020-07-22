@@ -2,7 +2,7 @@ package com.message;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.Interfaces.Network;
+import com.interfaces.Network;
 
 
 public class Message {
