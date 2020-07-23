@@ -1,4 +1,4 @@
-package com.message;
+package com.collector;
 import java.util.List;
 
 public class MessagesCollectorImpl implements MessagesCollector{

@@ -8,29 +8,19 @@ import java.util.stream.Stream;
 
 import org.junit.jupiter.api.Test;
 
-import com.message.MessagesCollector;
-import com.message.MessagesCollectorImpl;
+import com.collector.MessagesCollector;
+import com.collector.MessagesCollectorImpl;
 import com.streamflow.StreamFlow;
 
 class test1 {
-
-	@Test
-	void objectsInvalid() {
-		List<Object> objs = new ArrayList<Object>();
-		objs.add("invalido");
-		objs.add(1);
-		
-		MessagesCollector collector = new MessagesCollectorImpl();
-		assertTrue(collector.getMessages(objs).size() == 0);
-	}
 	
 	@Test
-	void messagesFiltered() {
+	void test() {
 		List<String> msgs = new ArrayList<String>();
 		msgs.add("empanada de humita");
-		msgs.add("dasdsadsadadsa");
+		msgs.add("nada que ver");
 		msgs.add("empanada de choclo");
-		msgs.add("emppppp aaaadddddddd");
+		msgs.add("zip");
 		
 		Stream<String> msgStream= msgs.stream();
 			
@@ -40,9 +30,6 @@ class test1 {
 		
 		assertEquals("empanada de humita", filtered.get(0));
 		assertEquals("empanada de choclo", filtered.get(1));
-			
-		
-		
 	}
 
 }
